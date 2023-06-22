@@ -1,0 +1,19 @@
+{
+  "name": "bookcount",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend.js"
+  },
+  "author": "Roope Niemi",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.7.4",
+    "graphql": "^16.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
