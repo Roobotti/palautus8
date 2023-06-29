@@ -19,9 +19,9 @@ const EditAuthor = () => {
     event.preventDefault()
 
     mutateAuthor({
-      variables: { name, born: parseInt(born) },
+      variables: { name, setBornTo: parseInt(born) },
     })
-    console.log('edit author...')
+    console.log('edit author...', born)
 
     setName('')
     setBorn('')
